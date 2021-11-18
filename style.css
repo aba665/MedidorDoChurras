@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/Background.jpg);
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-size: cover;
+   
+}
+#container{
+    position: relative;
+    top: 70px;
+    left: 18%;
+    float: left;
+    width: 30%;
+    height: auto;
+    border: 5px solid gray;
+   
+
+}
+input{
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    /* margin: 0 60px 0; */
+    padding: 5px;
+    background-color: #515151;
+    border: none;
+    border-bottom: 4px double rgb(175, 169, 169);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px whitesmoke;
+    text-align: center;
+    color:white;
+    
+}
+label{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 24px;
+    font-size: 22px;
+    color: white;
+}
+#click{
+    width: 80px;
+    display: block;
+    margin: 20px auto 20px auto;
+    padding: 10px;
+    background: #ffffffbb;
+    color: black;
+}
+#click:hover{
+    cursor: pointer;
+    background: #515151;
+    color: white;
+}
+p{
+    text-align: center;
+}
+ img{
+     display: inline-block;
+     margin-left: 25px;
+     
+ }
+ #resultado{
+     display: inline-block;
+     position: relative;
+     top: 40px;
+     left: 25%;
+     width: 30%;
+     height: auto;
+    font-size: 22px;
+    text-shadow: 5px 4px 7px black;
+    font-weight: 500;
+ }
+ @media (min-width: 350px) and (max-width: 540px){
+     
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url(image/Background.jpg);
+        background-size: cover;
+        
+    }
+    #container{
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        border: 5px solid gray;
+    }
+    p{
+        text-align: center;
+    }
+     img{
+         display: inline-block;
+         margin-top: 50px;
+     }
+    #resultado{
+        display: block;
+        width: 60%;
+        margin-right: auto;
+        height: auto;
+       font-size: 22px;
+       text-shadow: 5px 4px 7px black;
+       font-weight: 500;
+    }
+ }
