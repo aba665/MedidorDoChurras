@@ -93,6 +93,10 @@ function Medir() {
                 resultado.appendChild(beer)
                 beer.style.color = `white`
         
+                let msg = document.createElement("p")
+                msg.innerHTML = `Tenha um ótimo churras sou! \u{1f601}`
+                resultado.appendChild(msg)
+                msg.style.color = `white`
         
             }else if(Qtdcarne() < 1000 || Qtdagua() < 1000 || Qtdrefri() < 1000){
                 
@@ -135,7 +139,11 @@ function Medir() {
                 beer.innerHTML = `A quantidade necessária de cerveja é ${qtdCerveja()} copos`
                 resultado.appendChild(beer)
                 beer.style.color = `white`
-        
+
+                let msg = document.createElement("p")
+                msg.innerHTML = `Tenha um ótimo churras sou! \u{1f601}`
+                resultado.appendChild(msg)
+                msg.style.color = `white`
             }
            setTimeout(function(){
             location.reload()
