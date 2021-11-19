@@ -78,27 +78,6 @@ p{
     text-shadow: 5px 4px 7px black;
     font-weight: 500;
  }
- #ad{
-     background-image: url(image/adult.png);
-     background-repeat: no-repeat;
-     background-position-x: calc(0% + 10px);
-     background-position-y: center;
-
- }
- #cr{
-    background-image: url(image/child.png);
-    background-repeat: no-repeat;
-    background-position-x: calc(0% + 10px);
-    background-position-y: center;
-    overflow: hidden;
- }
- #hrs{
-    background-image: url(image/clock.png);
-    background-repeat: no-repeat;
-    background-position-x: calc(0% + 10px);
-    background-position-y: center;
-
- }
  @media (min-width: 350px) and (max-width: 540px){
      
     body{
