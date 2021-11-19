@@ -22,7 +22,7 @@ input{
     width: 60%;
     margin-right: 20%;
     margin-left: 20%;
-    padding: 5px;
+    padding: 7px;
     background-color: #515151;
     border: none;
     border-bottom: 4px double rgb(175, 169, 169);
@@ -30,6 +30,10 @@ input{
     box-shadow: 2px 2px 4px whitesmoke;
     text-align: center;
     color:white;
+    
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
     
 }
 input:hover{
@@ -73,6 +77,27 @@ p{
     font-size: 22px;
     text-shadow: 5px 4px 7px black;
     font-weight: 500;
+ }
+ #ad{
+     background-image: url(image/adult.png);
+     background-repeat: no-repeat;
+     background-position-x: calc(0% + 10px);
+     background-position-y: center;
+
+ }
+ #cr{
+    background-image: url(image/child.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(0% + 10px);
+    background-position-y: center;
+    overflow: hidden;
+ }
+ #hrs{
+    background-image: url(image/clock.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(0% + 10px);
+    background-position-y: center;
+
  }
  @media (min-width: 350px) and (max-width: 540px){
      
